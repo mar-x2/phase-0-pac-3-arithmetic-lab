@@ -24,13 +24,12 @@ function subtract(a, b){
         return (n);    
         }
 function makeInt(n){
-    parseInt(n, 10);
-    return (n);
+    return parseInt(n, 10);
 }
 
 function preserveDecimal(n){
     parseFloat(n);
     console.log(parseFloat(2.222));
     console.log(parseFloat('kfccsf'));
-    return (n);
+    return parseFloat(n);
 }
